@@ -39,7 +39,7 @@ library("openxlsx")
 
 # Set working directory and CHANGE CUTOFF DATE of the data (in theory, current date/date the code is being run):
 setwd("/Users/evan/Documents/FORECASTING DEMAND PROJECT/")
-todayDate <- as.Date(as.character(sys.Date()))
+todayDate <- sys.Date()
 
 ## CUSTOM FUNCTIONS:
 
